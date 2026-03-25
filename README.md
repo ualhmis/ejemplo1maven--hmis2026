@@ -1,1 +1,1 @@
-[![Maven Build](https://github.com/ualhmis/ejemplo1maven--hmis2026/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/ualhmis/ejemplo1maven--hmis2026/actions/workflows/github-actions-demo.yml)
+[![Maven Build](https://github.com/ualhmis/ejemplo1maven--hmis2026/actions/workflows/maven-build.yml/badge.svg)](https://github.com/ualhmis/ejemplo1maven--hmis2026/actions/workflows/maven-build.yml)
