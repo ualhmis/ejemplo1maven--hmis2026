@@ -33,6 +33,9 @@ jobs:
         run: mvn -B package --file pom.xml
       - name: Publish JUnit Test Report
         if: always()
-        uses: mikepenz/action-junit-report@v5
+        uses: mikepenz/action-junit-report@v6
         with:
           report_paths: target/surefire-reports/TEST-*.xml
+          detailed_summary: true
+          include_passed: true
+          check_title_template: "{{SUITE_NAME}}/{{TEST_NAME}}"
